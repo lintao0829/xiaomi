@@ -1,0 +1,1069 @@
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal; }
+
+body {
+  height: 100%; }
+
+ul, dl, li {
+  list-style: none; }
+
+img, fieldset {
+  border: none;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear {
+  zoom: 1; }
+
+#header {
+  background-color: #333333; }
+  #header header {
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto; }
+    #header header .headerL {
+      width: 950px;
+      height: 40px;
+      background-color: #333333;
+      float: left;
+      line-height: 40px; }
+      #header header .headerL ul {
+        position: relative; }
+        #header header .headerL ul li {
+          color: #b0b0b0;
+          float: left; }
+          #header header .headerL ul li a {
+            width: 56px;
+            height: 14px;
+            color: #b0b0b0;
+            font-size: 14px;
+            padding: 0 8px;
+            border-right: 1px solid #40403b; }
+        #header header .headerL ul img {
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          left: 618px;
+          top: 38px;
+          display: none;
+          padding: 15px; }
+    #header header .headerR {
+      width: 276px;
+      height: 40px;
+      background-color: #333333;
+      line-height: 40px;
+      float: left;
+      position: relative; }
+      #header header .headerR ul li {
+        color: #b0b0b0;
+        float: left; }
+        #header header .headerR ul li a {
+          width: 56px;
+          height: 14px;
+          color: #b0b0b0;
+          font-size: 14px;
+          padding: 0 8px;
+          border-right: 1px solid #40403b; }
+      #header header .headerR ul li:nth-of-type(4) {
+        width: 113px;
+        height: 40px;
+        text-align: center;
+        background-color: #424242; }
+      #header header .headerR ul div {
+        width: 276px;
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        top: 40px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        display: none;
+        z-index: 20; }
+
+.header2 {
+  background-color: white; }
+  .header2 .header2box {
+    margin: 0 auto;
+    width: 1226px;
+    height: 100px;
+    background-color: white; }
+    .header2 .header2box .header2boxL {
+      float: left;
+      width: 930px;
+      height: 100px;
+      background: white;
+      line-height: 100px; }
+      .header2 .header2box .header2boxL .active {
+        color: orangered; }
+      .header2 .header2box .header2boxL img {
+        padding: 22px 0;
+        float: left; }
+      .header2 .header2box .header2boxL ul {
+        float: left;
+        width: 870px;
+        height: 100px; }
+        .header2 .header2box .header2boxL ul a li {
+          float: left;
+          padding-right: 20px;
+          font-size: 16px; }
+        .header2 .header2box .header2boxL ul a:nth-of-type(1) li {
+          margin-left: 180px; }
+    .header2 .header2box .header2boxR {
+      float: left;
+      height: 100px;
+      position: relative; }
+      .header2 .header2box .header2boxR a:nth-of-type(1) {
+        position: absolute;
+        left: 128px;
+        top: 42px;
+        color: #848484;
+        background-color: #eeeeee;
+        font-size: 12px; }
+      .header2 .header2box .header2boxR #aaaa {
+        position: absolute;
+        top: 42px;
+        left: 168px;
+        font-size: 12px;
+        color: #848484;
+        background-color: #eeeeee; }
+      .header2 .header2box .header2boxR form input {
+        width: 228px;
+        height: 50px;
+        float: left;
+        margin: 25px 0; }
+      .header2 .header2box .header2boxR form .icon {
+        float: left;
+        width: 54px;
+        height: 54px;
+        margin-top: 25px;
+        border: 1px solid gray;
+        border-left: 0; }
+        .header2 .header2box .header2boxR form .icon img {
+          margin-left: 18px;
+          margin-top: 18px; }
+
+.xxkBox {
+  height: 215px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  display: none;
+  position: absolute;
+  z-index: 100;
+  left: 153px;
+  top: 140px; }
+  .xxkBox .hBox {
+    margin: 0 auto;
+    width: 1226px;
+    height: 215px;
+    background-color: white; }
+    .xxkBox .hBox ul {
+      height: 215px;
+      width: 1226px; }
+    .xxkBox .hBox .ul1 {
+      display: block;
+      height: 215px;
+      width: 1226px; }
+      .xxkBox .hBox .ul1 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul1 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul1 li span {
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px;
+          font-size: 14px; }
+        .xxkBox .hBox .ul1 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul1 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul1 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul1 li:nth-of-type(5) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul1 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul2 {
+      display: none; }
+      .xxkBox .hBox .ul2 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul2 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul2 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul2 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul2 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul2 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul2 li:nth-of-type(5) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul2 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul3 {
+      display: none; }
+      .xxkBox .hBox .ul3 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul3 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul3 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul3 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul3 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul3 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul4 {
+      display: none; }
+      .xxkBox .hBox .ul4 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul4 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul4 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul4 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul4 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul4 li:nth-of-type(2) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(5) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul5 {
+      display: none; }
+      .xxkBox .hBox .ul5 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul5 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul5 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px;
+          visibility: hidden; }
+        .xxkBox .hBox .ul5 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul5 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul5 li:nth-of-type(1) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(2) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(5) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul6 {
+      display: none; }
+      .xxkBox .hBox .ul6 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul6 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul6 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul6 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul6 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul6 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul6 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul6 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul7 {
+      display: none; }
+      .xxkBox .hBox .ul7 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul7 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul7 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul7 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul7 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul7 li:nth-of-type(1) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul7 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul7 li:nth-of-type(6) span {
+        visibility: hidden; }
+
+.bannerBox {
+  width: 1226px;
+  height: 460px;
+  background-color: deeppink;
+  margin: 0 auto; }
+  .bannerBox .bannerL {
+    width: 234px;
+    height: 462px;
+    background-color: #424a66;
+    float: left;
+    position: relative; }
+    .bannerBox .bannerL .ula {
+      margin-top: 22px;
+      color: #ffffff; }
+      .bannerBox .bannerL .ula li {
+        float: left;
+        width: 234px;
+        height: 42px;
+        line-height: 42px;
+        text-indent: 18px;
+        position: relative; }
+        .bannerBox .bannerL .ula li a {
+          color: #ffffff;
+          font-size: 14px; }
+        .bannerBox .bannerL .ula li span {
+          position: absolute;
+          left: 180px;
+          top: 0px;
+          font-size: 16px;
+          color: #b0b5be; }
+      .bannerBox .bannerL .ula .active2 {
+        background-color: orangered; }
+    .bannerBox .bannerL div {
+      z-index: 101;
+      width: 992px;
+      height: 460px;
+      background-color: white;
+      position: absolute;
+      left: 234px;
+      top: 0px;
+      display: none;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+      .bannerBox .bannerL div ul {
+        width: 992px;
+        height: 460px; }
+        .bannerBox .bannerL div ul li {
+          float: left;
+          width: 248px;
+          height: 77px;
+          line-height: 76px;
+          background-color: white; }
+          .bannerBox .bannerL div ul li img {
+            width: 40px;
+            height: 50px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 10px; }
+          .bannerBox .bannerL div ul li span {
+            float: left;
+            font-size: 14px;
+            margin-left: 10px; }
+    .bannerBox .bannerL .div3 {
+      width: 496px;
+      height: 460px; }
+      .bannerBox .bannerL .div3 ul {
+        width: 496px;
+        height: 460px; }
+    .bannerBox .bannerL .div5 {
+      width: 496px;
+      height: 460px; }
+      .bannerBox .bannerL .div5 ul {
+        width: 496px;
+        height: 460px; }
+    .bannerBox .bannerL .div6 {
+      width: 496px;
+      height: 460px; }
+      .bannerBox .bannerL .div6 ul {
+        width: 496px;
+        height: 460px; }
+    .bannerBox .bannerL .div7 {
+      width: 744px;
+      height: 460px; }
+      .bannerBox .bannerL .div7 ul {
+        width: 744px;
+        height: 460px; }
+        .bannerBox .bannerL .div7 ul li {
+          display: inline-block;
+          width: 248px;
+          height: 77px; }
+    .bannerBox .bannerL .div8 {
+      width: 992px;
+      height: 460px; }
+      .bannerBox .bannerL .div8 ul {
+        width: 992px;
+        height: 460px; }
+        .bannerBox .bannerL .div8 ul li {
+          display: inline-block;
+          width: 248px;
+          height: 77px; }
+    .bannerBox .bannerL .div9 {
+      width: 496px;
+      height: 460px; }
+      .bannerBox .bannerL .div9 ul {
+        width: 496px;
+        height: 460px; }
+    .bannerBox .bannerL .div8 {
+      width: 992px;
+      height: 460px; }
+      .bannerBox .bannerL .div8 ul {
+        width: 992px;
+        height: 460px; }
+        .bannerBox .bannerL .div8 ul li {
+          display: inline-block;
+          width: 248px;
+          height: 77px; }
+  .bannerBox .bannerR {
+    width: 992px;
+    height: 462px;
+    background-color: #ecdef7;
+    float: left;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; }
+    .bannerBox .bannerR .imgul {
+      width: 6000px;
+      height: 462px;
+      position: absolute; }
+      .bannerBox .bannerR .imgul li {
+        width: 992px;
+        height: 462px;
+        position: absolute; }
+        .bannerBox .bannerR .imgul li img {
+          width: 100%;
+          height: 100%; }
+    .bannerBox .bannerR ol {
+      position: absolute;
+      left: 830px;
+      top: 430px;
+      width: 150px;
+      height: 12px; }
+      .bannerBox .bannerR ol li {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #bdbabd;
+        line-height: 16px;
+        text-align: center;
+        float: left;
+        margin-right: 12px; }
+      .bannerBox .bannerR ol .active3 {
+        background-color: #40403b; }
+    .bannerBox .bannerR .ear .left {
+      position: absolute;
+      width: 50px;
+      height: 80px;
+      color: #b0b5be;
+      font-size: 40px;
+      font-weight: 300;
+      text-align: center;
+      line-height: 80px;
+      opacity: 0.6;
+      filter: alpha(opacity= "60");
+      left: 0px;
+      top: 180px; }
+    .bannerBox .bannerR .ear .right {
+      position: absolute;
+      width: 50px;
+      height: 80px;
+      color: #b0b5be;
+      font-size: 40px;
+      font-weight: 300;
+      text-align: center;
+      line-height: 80px;
+      opacity: 0.6;
+      filter: alpha(opacity= "60");
+      left: 942px;
+      top: 180px; }
+
+.showTop {
+  width: 1226px;
+  height: 170px;
+  margin: 0 auto;
+  background-color: white;
+  margin-top: 14px; }
+  .showTop .lBox {
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750; }
+    .showTop .lBox ul {
+      width: 234px;
+      height: 170px; }
+      .showTop .lBox ul li {
+        float: left;
+        width: 78px;
+        height: 85px;
+        text-align: center; }
+        .showTop .lBox ul li img {
+          margin-top: 20px;
+          margin-left: 28px; }
+        .showTop .lBox ul li span {
+          font-size: 12px;
+          color: #cfcdcb; }
+      .showTop .lBox ul li:hover span {
+        color: white; }
+  .showTop .rBox {
+    float: left;
+    width: 992px;
+    height: 170px; }
+    .showTop .rBox ul {
+      width: 992px;
+      height: 170px; }
+      .showTop .rBox ul li {
+        float: left;
+        width: 315px;
+        height: 170px;
+        margin-left: 15px; }
+        .showTop .rBox ul li img {
+          width: 100%;
+          height: 100%; }
+      .showTop .rBox ul li:nth-of-type(3) {
+        margin-left: 17px; }
+      .showTop .rBox ul li:hover {
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4); }
+
+.shangou {
+  width: 1226px;
+  height: 85px;
+  margin: 0 auto; }
+  .shangou span {
+    font-size: 20px;
+    float: left;
+    margin-top: 44px; }
+  .shangou button {
+    float: right;
+    width: 36px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    margin-top: 44px;
+    font-weight: 900;
+    color: #b0b0b2; }
+
+.showBox1 {
+  width: 1226px;
+  height: 342px;
+  margin: 0 auto; }
+  .showBox1 .showBox1L {
+    width: 235px;
+    text-align: center;
+    float: left;
+    height: 342px;
+    background-color: #f1eded;
+    border-top: 1px solid orangered; }
+    .showBox1 .showBox1L em {
+      font-size: 16px;
+      color: #ef3a3b;
+      margin-top: 60px;
+      display: block;
+      margin-bottom: 30px; }
+    .showBox1 .showBox1L img {
+      margin-left: 101px;
+      margin-bottom: 34px; }
+    .showBox1 .showBox1L i {
+      display: block;
+      color: #6f6d6d;
+      font-size: 14px;
+      margin-bottom: 34px; }
+    .showBox1 .showBox1L span {
+      display: inline-block;
+      line-height: 46px;
+      text-align: center;
+      width: 46px;
+      height: 46px;
+      background-color: #605751;
+      color: white;
+      font-size: 20px; }
+    .showBox1 .showBox1L p {
+      display: inline-block; }
+  .showBox1 .showBox1R {
+    float: left;
+    width: 991px;
+    height: 342px;
+    overflow: hidden;
+    position: relative; }
+    .showBox1 .showBox1R ul {
+      position: absolute;
+      left: 0;
+      width: 3000px;
+      height: 342px; }
+      .showBox1 .showBox1R ul li {
+        border-top: 1px solid #9cd071;
+        float: left;
+        width: 235px;
+        height: 342px;
+        margin-left: 12px;
+        text-align: center;
+        background-color: #fafafa; }
+        .showBox1 .showBox1R ul li img {
+          width: 140px;
+          height: 120px;
+          margin-left: 45px;
+          margin-bottom: 58px;
+          margin-top: 60px; }
+        .showBox1 .showBox1R ul li span {
+          display: block;
+          width: 190px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 14px;
+          margin-left: 18px;
+          margin-bottom: 12px; }
+        .showBox1 .showBox1R ul li i {
+          color: #adadad;
+          display: block;
+          font-size: 12px;
+          margin-bottom: 20px; }
+        .showBox1 .showBox1R ul li em:nth-of-type(1) {
+          color: #fa6509;
+          font-size: 14px; }
+        .showBox1 .showBox1R ul li em:nth-of-type(2) {
+          color: #adadad;
+          font-size: 12px;
+          text-decoration: line-through; }
+
+.guanggao {
+  width: 1226px;
+  height: 120px;
+  margin: 0 auto;
+  padding: 42px 0; }
+  .guanggao img {
+    width: 1226px;
+    height: 120px; }
+
+.showBox2 {
+  background: #f5f5f5; }
+  .showBox2 .showBox2Top {
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto; }
+    .showBox2 .showBox2Top span {
+      float: left;
+      margin-top: 42px;
+      font-size: 20px;
+      margin-right: 900px; }
+    .showBox2 .showBox2Top i {
+      float: left;
+      margin-top: 42px;
+      font-size: 14px;
+      margin-left: 20px; }
+    .showBox2 .showBox2Top .active4 {
+      color: orangered; }
+  .showBox2 .showBox2C {
+    position: relative;
+    width: 1226px;
+    height: 614px;
+    margin: 0 auto; }
+    .showBox2 .showBox2C .showbox2CL {
+      width: 234px;
+      height: 614px;
+      float: left; }
+      .showBox2 .showBox2C .showbox2CL img {
+        width: 234px;
+        height: 300px;
+        margin-bottom: 14px; }
+      .showBox2 .showBox2C .showbox2CL img:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+    .showBox2 .showBox2C ul {
+      position: absolute;
+      left: 234px;
+      top: 0;
+      float: left;
+      width: 992px;
+      height: 614px;
+      display: none; }
+      .showBox2 .showBox2C ul li {
+        text-align: center;
+        width: 234px;
+        height: 300px;
+        background-color: white;
+        float: left;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        position: relative;
+        overflow: hidden; }
+        .showBox2 .showBox2C ul li div {
+          width: 234px;
+          height: 80px;
+          background-color: orangered;
+          position: absolute;
+          left: 0px;
+          top: 300px; }
+          .showBox2 .showBox2C ul li div span {
+            color: white;
+            font-size: 12px;
+            margin-top: 8px; }
+        .showBox2 .showBox2C ul li img {
+          width: 126px;
+          height: 84px;
+          margin-left: 55px;
+          margin-top: 60px;
+          margin-bottom: 55px; }
+        .showBox2 .showBox2C ul li span {
+          font-size: 14px;
+          color: black;
+          margin-bottom: 8px;
+          display: block; }
+        .showBox2 .showBox2C ul li i {
+          color: #b0b0b0;
+          font-size: 10px;
+          display: block;
+          margin-bottom: 18px; }
+        .showBox2 .showBox2C ul li em {
+          color: orangered; }
+      .showBox2 .showBox2C ul li:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+    .showBox2 .showBox2C ul:nth-of-type(1) {
+      display: block; }
+
+.guanggao2 {
+  width: 1226px;
+  height: 120px;
+  margin: 0 auto;
+  padding: 42px 0; }
+  .guanggao2 img {
+    width: 1226px;
+    height: 120px; }
+
+.showBox3 {
+  background: #f5f5f5; }
+  .showBox3 .showBox3Top {
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto; }
+    .showBox3 .showBox3Top span {
+      float: left;
+      margin-top: 42px;
+      font-size: 20px;
+      margin-right: 900px; }
+    .showBox3 .showBox3Top i {
+      float: left;
+      margin-top: 42px;
+      font-size: 14px;
+      margin-left: 20px; }
+    .showBox3 .showBox3Top .active4 {
+      color: orangered; }
+  .showBox3 .showBox3C {
+    position: relative;
+    width: 1226px;
+    height: 614px;
+    margin: 0 auto; }
+    .showBox3 .showBox3C .showbox3CL {
+      width: 234px;
+      height: 614px;
+      float: left; }
+      .showBox3 .showBox3C .showbox3CL img {
+        width: 234px;
+        height: 300px;
+        margin-bottom: 14px; }
+      .showBox3 .showBox3C .showbox3CL img:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+    .showBox3 .showBox3C ul {
+      position: absolute;
+      left: 234px;
+      top: 0;
+      float: left;
+      width: 992px;
+      height: 614px;
+      display: none; }
+      .showBox3 .showBox3C ul li {
+        text-align: center;
+        width: 234px;
+        height: 300px;
+        background-color: white;
+        float: left;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        position: relative;
+        overflow: hidden; }
+        .showBox3 .showBox3C ul li div {
+          width: 234px;
+          height: 80px;
+          background-color: orangered;
+          position: absolute;
+          left: 0px;
+          top: 300px; }
+          .showBox3 .showBox3C ul li div span {
+            color: white;
+            font-size: 12px;
+            margin-top: 8px; }
+        .showBox3 .showBox3C ul li img {
+          width: 126px;
+          height: 84px;
+          margin-left: 55px;
+          margin-top: 60px;
+          margin-bottom: 55px; }
+        .showBox3 .showBox3C ul li span {
+          font-size: 14px;
+          color: black;
+          margin-bottom: 8px;
+          display: block; }
+        .showBox3 .showBox3C ul li i {
+          color: #b0b0b0;
+          font-size: 10px;
+          display: block;
+          margin-bottom: 18px; }
+        .showBox3 .showBox3C ul li em {
+          color: orangered; }
+      .showBox3 .showBox3C ul li:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+    .showBox3 .showBox3C ul:nth-of-type(1) {
+      display: block; }
+
+.guanggao3 {
+  width: 1226px;
+  height: 120px;
+  margin: 0 auto;
+  padding: 42px 0; }
+  .guanggao3 img {
+    width: 1226px;
+    height: 120px; }
+
+.showBox4 {
+  background: #f5f5f5; }
+  .showBox4 .showBox4Top {
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto; }
+    .showBox4 .showBox4Top span {
+      float: left;
+      margin-top: 42px;
+      font-size: 20px;
+      margin-right: 900px; }
+    .showBox4 .showBox4Top i {
+      float: left;
+      margin-top: 42px;
+      font-size: 14px;
+      margin-left: 20px; }
+    .showBox4 .showBox4Top .active4 {
+      color: orangered; }
+  .showBox4 .showBox4C {
+    position: relative;
+    width: 1226px;
+    height: 614px;
+    margin: 0 auto; }
+    .showBox4 .showBox4C .showbox4CL {
+      width: 234px;
+      height: 614px;
+      float: left; }
+      .showBox4 .showBox4C .showbox4CL img {
+        width: 234px;
+        height: 300px;
+        margin-bottom: 14px; }
+      .showBox4 .showBox4C .showbox4CL img:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+    .showBox4 .showBox4C ul {
+      position: absolute;
+      left: 234px;
+      top: 0;
+      float: left;
+      width: 992px;
+      height: 614px;
+      display: none; }
+      .showBox4 .showBox4C ul li {
+        text-align: center;
+        width: 234px;
+        height: 300px;
+        background-color: white;
+        float: left;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        position: relative;
+        overflow: hidden; }
+        .showBox4 .showBox4C ul li div {
+          width: 234px;
+          height: 80px;
+          background-color: orangered;
+          position: absolute;
+          left: 0px;
+          top: 300px; }
+          .showBox4 .showBox4C ul li div span {
+            color: white;
+            font-size: 12px;
+            margin-top: 8px; }
+        .showBox4 .showBox4C ul li img {
+          width: 126px;
+          height: 84px;
+          margin-left: 55px;
+          margin-top: 60px;
+          margin-bottom: 55px; }
+        .showBox4 .showBox4C ul li span {
+          font-size: 14px;
+          color: black;
+          margin-bottom: 8px;
+          display: block; }
+        .showBox4 .showBox4C ul li i {
+          color: #b0b0b0;
+          font-size: 10px;
+          display: block;
+          margin-bottom: 18px; }
+        .showBox4 .showBox4C ul li em {
+          color: orangered; }
+      .showBox4 .showBox4C ul li:hover {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+    .showBox4 .showBox4C ul:nth-of-type(1) {
+      display: block; }
+
+.bottom {
+  background-color: #f5f5f5;
+  width: 1226px;
+  margin: 0 auto; }
+  .bottom img {
+    width: 1226px; }
