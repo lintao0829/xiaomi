@@ -44,10 +44,46 @@ gulp.task("sass", function(){
 	.pipe(gulp.dest("dist/css"))
 	.pipe(connect.reload());
 })
+gulp.task("sass2", function(){
+	return gulp.src("css/fangdajing.scss")
+	.pipe(sass())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minifyCSS())
+	.pipe(rename("fangdajing.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
+gulp.task("sass3",function(){
+	return gulp.src("css/list.scss")
+	.pipe(sass())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minifyCSS())
+	.pipe(rename("list.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
+gulp.task("sass4",function(){
+	return gulp.src("css/jiesuan.scss")
+	.pipe(sass())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minifyCSS())
+	.pipe(rename("jiesuan.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
+gulp.task("sass5",function(){
+	return gulp.src("css/login.scss")
+	.pipe(sass())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minifyCSS())
+	.pipe(rename("login.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
 
 
 //上述所有任务都是用来处理静态资源
-gulp.task("build", ["copy-html", "images", "scripts", "data","sass"], function(){
+gulp.task("build", ["copy-html", "images", "scripts", "data","sass","sass2","sass3","sass4","sass5"], function(){
 	console.log("项目建立成功");
 })
 
@@ -58,7 +94,12 @@ gulp.task("watch", function(){
 	gulp.watch(["js/*.js", "!gulpfile.js"], ["scripts"]);
 	gulp.watch(["data/*.json", "!package.json"], ["data"]);
 	gulp.watch("css/index.scss", ['sass']);
+	gulp.watch("css/fangdajing.scss",['sass2']);
+	gulp.watch("css/list.scss",['sass3']);
+	gulp.watch("css/jiesuan.scss",['sass4']);
+	gulp.watch(["css/login.scss"],['sass5']);
 })
+
 
 
 const connect = require("gulp-connect");

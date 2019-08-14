@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<style>
+			#register{width: 400px; margin: 100px auto}
+			body{background: url(timg.gif) no-repeat; background-size: 100%;  }
+			.dl{
+                margin-top:5px;
+                height:45px;
+                width:100%;
+                font-size:20px;
+                background-color:coral;
+                color:cornsilk;
+			}
+			.aa{
+				height:60px;
+				width:270px;
+				font-size:30px;
+				margin:0 auto;
+			}
+			body{
+				background:rgb(250, 234, 215);
+			}
+			.panel{
+				border-radius:2%;
+			}
+		</style> 
+		<!-- 
+            你要用form表单，就不能用ajax
+            
+			要用ajax，就不能用form表单
+		 -->
+		 <script src = '../js/ajax.js'></script>
+		 <script>
+		 window.onload = function(){
+				var oSubmit = document.getElementById("submit");
+				var oColwarning = document.getElementById("colwarning");
+				var aInputs = document.getElementsByTagName("input");
+
+				oSubmit.onclick = function(){
+					$ajax({
+						type: "get",
+						url: "../php/register.php",
+						data: {
+							username: aInputs[0].value,
+							password: aInputs[1].value,
+							repassword: aInputs[2].value,
+							addTime: (new Date()).getTime()
+						},
+						success: function(msg){
+							var obj = JSON.parse(msg);
+							if(obj.code){
+								oColwarning.style.display = 'block';
+								oColwarning.innerHTML = obj.message;
+							}else{
+								oColwarning.style.display = 'block';
+								oColwarning.className = "alert alert-success";
+								oColwarning.innerHTML = obj.message;
+								setTimeout(function(){
+									location.assign("login.html");
+								}, 1000);
+							}
+						},
+						error: function(msg){
+							alert(msg);
+						}
+					})
+				}
+
+			}
+		 </script>
+	</head>
+	<body>
+        <div></div>
+		<div class = 'container top'>
+			<div id = 'register' class = 'panel'>
+				<div class = 'panel-heading aa'>注册小米账号</div>
+				<div class = 'panel-body'>
+					<div class = 'form-group'>
+						<label for="username">用户名：</label>
+						<input type="text" name = 'username' class = 'form-control'>
+					</div>
+					<div class = 'form-group'>
+						<label for="password">密码：</label>
+						<input type="text" name = 'password' class = 'form-control'>
+					</div>
+					<div class = 'form-group'>
+						<label for="repassword">确认密码：</label>
+						<input type="text" name = 'repassword' class = 'form-control'>
+					</div>
+					<div id = 'alert' class="alert alert-danger" style = "padding: 2px; text-align:center; display: none" role="alert"></div>
+					<a href="../html/forgetmsg.html" class = 'text-danger'>忘记密码？</a>
+					<button id = 'submit' class = "btn dl">立即注册</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

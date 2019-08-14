@@ -1,0 +1,567 @@
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal; }
+
+body {
+  height: 100%; }
+
+ul, dl, li {
+  list-style: none; }
+
+img, fieldset {
+  border: none;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear {
+  zoom: 1; }
+
+#header {
+  background-color: #333333; }
+  #header header {
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto; }
+    #header header .headerL {
+      width: 950px;
+      height: 40px;
+      background-color: #333333;
+      float: left;
+      line-height: 40px; }
+      #header header .headerL ul {
+        position: relative; }
+        #header header .headerL ul li {
+          color: #b0b0b0;
+          float: left; }
+          #header header .headerL ul li a {
+            width: 56px;
+            height: 14px;
+            color: #b0b0b0;
+            font-size: 14px;
+            padding: 0 8px;
+            border-right: 1px solid #40403b; }
+        #header header .headerL ul img {
+          width: 120px;
+          height: 120px;
+          position: absolute;
+          left: 618px;
+          top: 38px;
+          display: none;
+          padding: 15px; }
+    #header header .headerR {
+      width: 276px;
+      height: 40px;
+      background-color: #333333;
+      line-height: 40px;
+      float: left;
+      position: relative; }
+      #header header .headerR ul li {
+        color: #b0b0b0;
+        float: left; }
+        #header header .headerR ul li a {
+          width: 56px;
+          height: 14px;
+          color: #b0b0b0;
+          font-size: 14px;
+          padding: 0 8px;
+          border-right: 1px solid #40403b; }
+      #header header .headerR ul li:nth-of-type(4) {
+        width: 113px;
+        height: 40px;
+        text-align: center;
+        background-color: #424242; }
+      #header header .headerR ul div {
+        width: 276px;
+        background-color: white;
+        height: 100px;
+        position: absolute;
+        top: 40px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+        display: none;
+        z-index: 20; }
+
+.header2 {
+  background-color: white; }
+  .header2 .header2box {
+    margin: 0 auto;
+    width: 1226px;
+    height: 100px;
+    background-color: white; }
+    .header2 .header2box .header2boxL {
+      float: left;
+      width: 930px;
+      height: 100px;
+      background: white;
+      line-height: 100px; }
+      .header2 .header2box .header2boxL .active {
+        color: orangered; }
+      .header2 .header2box .header2boxL img {
+        padding: 22px 0;
+        float: left; }
+      .header2 .header2box .header2boxL ul {
+        float: left;
+        width: 870px;
+        height: 100px; }
+        .header2 .header2box .header2boxL ul a li {
+          float: left;
+          padding-right: 20px;
+          font-size: 16px; }
+        .header2 .header2box .header2boxL ul a:nth-of-type(1) li {
+          margin-left: 180px; }
+    .header2 .header2box .header2boxR {
+      float: left;
+      height: 100px;
+      position: relative; }
+      .header2 .header2box .header2boxR a:nth-of-type(1) {
+        position: absolute;
+        left: 128px;
+        top: 42px;
+        color: #848484;
+        background-color: #eeeeee;
+        font-size: 12px; }
+      .header2 .header2box .header2boxR #aaaa {
+        position: absolute;
+        top: 42px;
+        left: 168px;
+        font-size: 12px;
+        color: #848484;
+        background-color: #eeeeee; }
+      .header2 .header2box .header2boxR form input {
+        width: 228px;
+        height: 50px;
+        float: left;
+        margin: 25px 0; }
+      .header2 .header2box .header2boxR form .icon {
+        float: left;
+        width: 54px;
+        height: 54px;
+        margin-top: 25px;
+        border: 1px solid gray;
+        border-left: 0; }
+        .header2 .header2box .header2boxR form .icon img {
+          margin-left: 18px;
+          margin-top: 18px; }
+
+.xxkBox {
+  height: 215px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  display: none;
+  position: absolute;
+  z-index: 100;
+  left: 153px;
+  top: 140px; }
+  .xxkBox .hBox {
+    margin: 0 auto;
+    width: 1226px;
+    height: 215px;
+    background-color: white; }
+    .xxkBox .hBox ul {
+      height: 215px;
+      width: 1226px; }
+    .xxkBox .hBox .ul1 {
+      display: block;
+      height: 215px;
+      width: 1226px; }
+      .xxkBox .hBox .ul1 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul1 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul1 li span {
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px;
+          font-size: 14px; }
+        .xxkBox .hBox .ul1 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul1 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul1 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul1 li:nth-of-type(5) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul1 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul2 {
+      display: none; }
+      .xxkBox .hBox .ul2 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul2 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul2 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul2 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul2 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul2 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul2 li:nth-of-type(5) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul2 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul3 {
+      display: none; }
+      .xxkBox .hBox .ul3 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul3 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul3 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul3 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul3 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul3 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul4 {
+      display: none; }
+      .xxkBox .hBox .ul4 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul4 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul4 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul4 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul4 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul4 li:nth-of-type(2) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(5) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul4 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul5 {
+      display: none; }
+      .xxkBox .hBox .ul5 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul5 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul5 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px;
+          visibility: hidden; }
+        .xxkBox .hBox .ul5 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul5 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul5 li:nth-of-type(1) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(2) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul5 li:nth-of-type(5) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul6 {
+      display: none; }
+      .xxkBox .hBox .ul6 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul6 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul6 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul6 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul6 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul6 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul6 li:nth-of-type(4) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul6 li:nth-of-type(6) span {
+        visibility: hidden; }
+    .xxkBox .hBox .ul7 {
+      display: none; }
+      .xxkBox .hBox .ul7 li {
+        width: 204px;
+        height: 215px;
+        float: left;
+        background: white;
+        text-align: center; }
+        .xxkBox .hBox .ul7 li img {
+          width: 146px;
+          height: 98px;
+          margin-left: 34px;
+          margin-top: 18px;
+          border-right: 1px solid #e0e0e0; }
+        .xxkBox .hBox .ul7 li span {
+          font-size: 14px;
+          margin-top: 1px;
+          border: 1px solid orangered;
+          width: 60px;
+          text-align: center;
+          line-height: 20px;
+          display: block;
+          height: 20px;
+          color: orangered;
+          margin-left: 72px; }
+        .xxkBox .hBox .ul7 li .a3 {
+          display: block;
+          font-size: 12px;
+          margin-top: 15px; }
+        .xxkBox .hBox .ul7 li i {
+          font-size: 12px;
+          color: orangered; }
+      .xxkBox .hBox .ul7 li:nth-of-type(1) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul7 li:nth-of-type(3) span {
+        visibility: hidden; }
+      .xxkBox .hBox .ul7 li:nth-of-type(6) span {
+        visibility: hidden; }
+
+.tbox {
+  width: 100%;
+  height: 64px;
+  box-shadow: 0 10px 10px #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  margin-bottom: 15px; }
+  .tbox .topBox {
+    width: 1226px;
+    height: 64px;
+    margin: 0 auto; }
+    .tbox .topBox .topBoxL {
+      float: left;
+      width: 860px;
+      height: 64px;
+      line-height: 64px; }
+      .tbox .topBox .topBoxL a:nth-of-type(1) {
+        font-size: 18px;
+        margin-right: 6px; }
+    .tbox .topBox .topBoxR {
+      float: left;
+      width: 366px;
+      height: 64px;
+      line-height: 64px; }
+      .tbox .topBox .topBoxR a {
+        width: 18px;
+        height: 14px;
+        font-size: 14px;
+        border-right: 1px solid #b0b0b0;
+        margin-right: 4px;
+        padding-right: 5px; }
+      .tbox .topBox .topBoxR a:last-child {
+        border-right: 0; }
+
+.fdjBox {
+  width: 1226px;
+  height: 580px;
+  position: relative;
+  margin: 0 auto; }
+  .fdjBox .left {
+    float: left;
+    width: 613px;
+    height: 580px;
+    position: absolute; }
+    .fdjBox .left ul {
+      position: absolute;
+      margin-left: 80px;
+      margin-top: 50px; }
+      .fdjBox .left ul li {
+        border: 1px solid #b0b0b0;
+        width: 460px;
+        height: 310px;
+        position: absolute;
+        left: 0px;
+        top: 0px; }
+        .fdjBox .left ul li img {
+          width: 100%;
+          height: 100%; }
+      .fdjBox .left ul li:nth-of-type(1) {
+        z-index: 2; }
+    .fdjBox .left ol {
+      width: 460px;
+      height: 100px;
+      position: absolute;
+      left: 130px;
+      top: 370px; }
+      .fdjBox .left ol li {
+        float: left;
+        border: 1px solid #b0b0b0; }
+        .fdjBox .left ol li img {
+          width: 120px;
+          height: 100px; }
+    .fdjBox .left .active5 {
+      border-color: orangered; }
+    .fdjBox .left .mask {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      background-color: #333333;
+      z-index: 4;
+      opacity: 0.4;
+      filter: alpha(opacity=40);
+      display: none; }
+  .fdjBox .right {
+    float: left;
+    width: 613px;
+    height: 580px;
+    position: absolute;
+    left: 613px;
+    top: 0px; }
+    .fdjBox .right img {
+      width: 100%;
+      height: 100%; }
+  .fdjBox .big {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    width: 400px;
+    height: 400px;
+    display: none;
+    background-color: blue;
+    overflow: hidden; }
+    .fdjBox .big li {
+      position: absolute; }
+      .fdjBox .big li img {
+        width: 1840px;
+        height: 1240px;
+        position: absolute;
+        left: 0px;
+        top: 0px; }
+    .fdjBox .big li:nth-of-type(1) {
+      z-index: 3; }

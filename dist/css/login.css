@@ -1,0 +1,90 @@
+html, body, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, form, fieldset, legend, img, b, strong {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal; }
+
+body {
+  height: 100%; }
+
+ul, dl, li {
+  list-style: none; }
+
+img, fieldset {
+  border: none;
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clear {
+  zoom: 1; }
+
+.box {
+  width: 857px;
+  height: 580px;
+  background-color: #666;
+  margin: 50px auto;
+  position: relative; }
+  .box img {
+    position: absolute;
+    left: 420px;
+    top: 0; }
+  .box h1 {
+    position: absolute;
+    font-size: 28px;
+    color: black;
+    left: 360px;
+    top: 90px; }
+  .box span {
+    position: absolute;
+    left: 270px;
+    top: 156px; }
+  .box input {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 270px;
+    top: 184px; }
+  .box i {
+    position: absolute;
+    left: 270px;
+    top: 236px;
+    font-size: 14px;
+    color: #cecece; }
+  .box h2 {
+    position: absolute;
+    left: 270px;
+    top: 270px; }
+  .box input:nth-of-type(2) {
+    position: absolute;
+    left: 270px;
+    top: 300px;
+    width: 70px; }
+  .box input:nth-of-type(3) {
+    position: absolute;
+    left: 315px;
+    top: 300px;
+    width: 235px; }
+  .box button {
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 270px;
+    top: 400px; }

@@ -1,0 +1,30 @@
+console.log("main4加载成功");
+/*
+    通过require引入模块
+    第一个参数是引入模块的名字--[传的是数组]
+     第二个参数是回调函数
+*/
+// require(["js/xxx"],function(add){
+//     alert(add.addOut(10,20));
+//     add.hello();
+// })
+require.config({
+    paths:{
+        "jquery":"jquery-1.11.3",
+        "jquery-cookie": "jquery.cookie",
+        "jiesuan":"jiesuan",
+    },
+    shim:{
+            "jquery-cookie": ["jquery"],
+            //抛物线不支持AMD规范
+            "parabola": {
+                exports: "_"
+            }
+        }
+})
+
+
+require(['jiesuan'],function(jiesuan){
+    jiesuan.jiesuan();
+    jiesuan.sc_num();
+})

@@ -78,7 +78,7 @@ define(["jquery"],function($){
                         for(var k = 0 ; k < newArr2.length; k++){
                             var obj = newArr2[k];
                             $(`<li>
-                                    <img src="${obj.img}" alt="">
+                                    <a href="http://localhost:6789/list.html"><img src="${obj.img}" alt=""></a>
                                     <span>${obj.span}</span>
                                     <i>${obj.i}</i>
                                     <em>${obj.em}</em>
