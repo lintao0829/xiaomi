@@ -1,67 +1,82 @@
 @import "reset";
-.box{
-    width:857px;
-    height:580px;
-    background-color: #666;
-    margin:50px auto;
+header{
+    width:100%;
+    height:100px;
+    .header{
+        width:1226px;
+        height: 100px;
+        margin:0 auto;
+        background-color: white;
+        position: relative;
+        img{
+            padding-top:25px;
+        }
+        span{
+            font-size:30px;
+            position: absolute;
+            left:80px;
+            top:18px;
+        }
+        i{
+            font-size: 12px;
+            color:#666;
+            position: absolute;
+            left:80px;
+            top:60px;
+        }
+    }
+}
+// container
+.container{
+    width:100%;
+    height:600px;
+    background:url(../images/51111d0aa52f6.jpg) no-repeat  100%;
     position: relative;
-    img{
-        position: absolute;
-        left: 420px;
-        top:0;
-    }
-    h1{
-        position: absolute;
-        font-size: 28px;
-        color:black;
-        left: 360px;
-        top:90px;
-    }
-    span{
-        position: absolute;
-        left:270px;
-        top:156px;
-    }
-    input{
-        position: absolute;
-        width:300px;
-        height:40px;
-        left:270px;
-        top:184px;
-    }
-    i{
-        position: absolute;
-        left:270px;
-        top:236px;
-        font-size:14px;
-        color:rgb(206, 206, 206)
-    }
-    h2{
-        position: absolute;
-        left:270px;
-        top:270px;
-    }
-    input:nth-of-type(2){
-        position: absolute;
-        left:270px;
-        top:300px;
-        width:70px;
-    }
-    input:nth-of-type(3){
+    .box{
+        width: 400px;
+        height:420px;
+        background-color:white;
         position:absolute;
-        left:315px;
-        top:300px;
-        width: 235px;
-    }
-    button{
-        width:300px;
-        height:40px;
-        background-color: orangered;
-        border:0;
-        color:white;
-        font-size:18px;
-        position: absolute;
-        left:270px;
-        top:400px;
+        left:990px;
+        top:40px;
+        span:nth-of-type(1){
+            position: absolute;
+            font-size:28px;
+            color:orangered;
+            left:70px;
+            top:10px;
+        }
+        span:nth-of-type(2){
+            position: absolute;
+            font-size:28px;
+            color:black;
+            left:200px;
+            top:10px;
+        }
+        input:nth-of-type(1){
+            position: absolute;
+            width:345px;
+            height:40px;
+            left:30px;
+            top:100px;
+        }
+        input:nth-of-type(2){
+            position: absolute;
+            width:345px;
+            height:40px;
+            left:30px;
+            top:170px;
+        }
+        button{
+            width:345px;
+            font-size: 18px;
+            color:white;
+            height:40px;
+            background-color: orangered;
+            border:0;
+            left:30px;
+            position: absolute;
+            top:230px;
+        }
     }
 }

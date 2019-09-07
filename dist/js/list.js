@@ -137,6 +137,13 @@ define(["jquery","jquery-cookie"],function($){
         }
         //刷新页面
         // window.location.reload();
+        $("#mask").css("display","block");
+        $(".continue").click(function(){
+            $("#mask").css("display","none");
+        })
+        $(".watch").click(function(){
+            location.assign("jiesuan.html");
+        })
     })
 
 

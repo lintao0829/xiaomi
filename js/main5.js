@@ -12,7 +12,7 @@ require.config({
     paths:{
         "jquery":"jquery-1.11.3",
         "jquery-cookie": "jquery.cookie",
-        "logon":"logon"
+        "regeister":"regeister"
     },
     shim:{
             "jquery-cookie": ["jquery"],
@@ -24,6 +24,6 @@ require.config({
 })
 
 
-require(['logon'],function(logon){
-    logon.logon();
+require(['regeister'],function(regeister){
+    regeister.regeister();
 })

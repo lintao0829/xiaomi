@@ -24,7 +24,7 @@ gulp.task("scripts", function(){
 
 // 数据
 gulp.task("data", function(){
-	return gulp.src(["data/*.json", "!package.json"])
+	return gulp.src(["data/*.{json,php}", "!package.json"])
 	.pipe(gulp.dest("dist/data"))
 	.pipe(connect.reload());  
 })
@@ -80,10 +80,19 @@ gulp.task("sass5",function(){
 	.pipe(gulp.dest("dist/css"))
 	.pipe(connect.reload());
 })
+gulp.task("sass6",function(){
+	return gulp.src("css/regeister.scss")
+	.pipe(sass())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minifyCSS())
+	.pipe(rename("regeister.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
 
 
 //上述所有任务都是用来处理静态资源
-gulp.task("build", ["copy-html", "images", "scripts", "data","sass","sass2","sass3","sass4","sass5"], function(){
+gulp.task("build", ["copy-html", "images", "scripts", "data","sass","sass2","sass3","sass4","sass5","sass6"], function(){
 	console.log("项目建立成功");
 })
 
@@ -98,6 +107,7 @@ gulp.task("watch", function(){
 	gulp.watch("css/list.scss",['sass3']);
 	gulp.watch("css/jiesuan.scss",['sass4']);
 	gulp.watch(["css/login.scss"],['sass5']);
+	gulp.watch(["css/regeister.scss"],['sass6']);
 })
 
 

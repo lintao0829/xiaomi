@@ -97,6 +97,7 @@ define(["jquery","jquery-cookie"],function($){
                 expires:7
             })
             sc_num();
+            
             //给按钮添加刷新小计
             var a = $(this).siblings("i").html();
             // alert(a)

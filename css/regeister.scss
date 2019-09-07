@@ -1,0 +1,82 @@
+@import "reset";
+body{
+    background-color: rgb(248, 248, 248);
+}
+.box{
+    width:857px;
+    height:580px;
+    background-color: white;
+    margin:50px auto;
+    position: relative;
+    img{
+        position: absolute;
+        left: 420px;
+        top:0;
+    }
+    h1{
+        position: absolute;
+        font-size: 28px;
+        color:black;
+        left: 360px;
+        top:90px;
+    }
+    span{
+        position: absolute;
+        left:270px;
+        top:156px;
+    }
+    input{
+        position: absolute;
+        width:300px;
+        height:40px;
+        left:270px;
+        top:184px;
+    }
+    i{
+        position: absolute;
+        left:270px;
+        top:236px;
+        font-size:14px;
+        color:#666;
+    }
+    h2{
+        position: absolute;
+        left:270px;
+        top:270px;
+    }
+    input:nth-of-type(2){
+        position: absolute;
+        left:270px;
+        top:300px;
+        width:70px;
+    }
+    input:nth-of-type(3){
+        position:absolute;
+        left:315px;
+        top:300px;
+        width: 255px;
+    }
+    button{
+        width:300px;
+        height:40px;
+        background-color: orangered;
+        border:0;
+        color:white;
+        font-size:18px;
+        position: absolute;
+        left:270px;
+        top:480px;
+    }
+    input:nth-of-type(4){
+        position:absolute;
+        left:270px;
+        top:360px;
+        width: 300px;
+    }
+    input:nth-of-type(5){
+        position:absolute;
+        left:270px;
+        top:420px;
+        width:300px;
+    }
+}
